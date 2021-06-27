@@ -4,13 +4,16 @@ import {BrowserRouter as Router} from "react-router-dom";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {ProductProvider} from './Context'
+import ProductProvider from './context/Context'
+import AuthProvider from './context/authContext'
 ReactDOM.render(
+  <AuthProvider>
   <ProductProvider>
     <Router>
       <App />
     </Router>
-  </ProductProvider>,
+  </ProductProvider>
+  </AuthProvider>,
   document.getElementById("root")
 );
 

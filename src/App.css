@@ -1,46 +1,171 @@
-:root{
-  --mainBlue:#2a2a72;
-  --lightBlue:#009ffd;
-  --mainWhite:#f3f3f3;
-  --mainDark:#232528;
-  --mainYellow:#ffa400;
-  --mainRed:red;
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --mainRed: red;
 }
-body{
+body {
   font-family: "Oswald", sans-serif !important;
-  background-color: var(--mainWhite)!important;
+  background-color: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
-.text-title{
-  font-family:'Permanent Marker',cursive;
+.text-title {
+  font-family: "Permanent Marker", cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 
-.text-blue{
-  color:var(--mainBlue)
+.text-blue {
+  color: var(--mainBlue);
 }
 
-.text-bright{
-  color:var(--lightBlue);
+.text-bright {
+  color: var(--lightBlue);
 }
 
-.btn-black{
-  background:transparent;
+.btn-black {
+  background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color:var(--mainDark);
+  color: var(--mainDark);
   border-radius: 0 !important;
-  border:0.1rem solid var(--mainDark) !important;
+  border: 0.1rem solid var(--mainDark) !important;
 }
 
-.btn-black:hover{
-  background: var(--mainDark)!important;
-  color:var(--mainWhite) !important;
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
 }
-.cart-icon{
-  cursor:pointer;
+.cart-icon {
+  cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+
+.img-fluid {
+  margin-top: 4% !important;
+  margin-left: 8% !important;
+  width: 60% !important;
+  height: 80% !important;
+}
+
+.contentTitle {
+  justify-content: center;
+}
+
+.stylediv {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.loaderdiv {
+  padding-top: 25%;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.noproduct {
+  margin-top: 10%;
+  font-size: 36px !important;
+  font-weight: 400 !important;
+  color: rgba(43, 36, 36, 0.87);
+}
+
+.align-navLink {
+  position: relative;
+  color: var(--mainWhite);
+  cursor: pointer;
+  padding-right: 10px;
+  text-decoration: none !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.align-navLink:hover{
+  color: var(--lightBlue)!important;
+}
+
+
+.nav-div {
+  display: flex;
+  margin-left: auto;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+.product-button {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 0.05rem solid var(--lightBlue);
+  border-color: var(--lightBlue);
+  color: var(--lightBlue);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0.7rem 0.2rem 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.product-button:hover{
+  background: var(--lightBlue);
+  color: var(--mainWhite);
+}
+
+.product-button:focus{
+  outline: none;
+}
+
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  right:0;
+  
+  width: auto;
+  transition: .5s ease;
+  padding: 0;
+}
+
+.icon-b{
+color:rgba(243, 44, 44, 0.815) !important;
+padding: 5px;
+  cursor: pointer;
+
+}
+
+.icon-a{
+  color: rgb(247, 213, 169);
+   padding: 5px;
+  cursor: pointer;
+}
+
+.button-modify{
+  outline: none;
+  border: none;
+  background-color: var(--mainWhite)!important;
+}
+
+
+.loaderWishlist{
+  justify-content: center;
 }

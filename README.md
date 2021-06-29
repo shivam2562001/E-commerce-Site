@@ -9,8 +9,9 @@ This is a e-commerce project which describes how  e-commerce works and its consi
   ### Commands for running Frontend:
 
    **Development mode**
+    <br/>
     ```
-    cd shoppingcart
+    cd shoppingcart<br/>
     npm start
     ```
   >Runs the app in the development mode.
@@ -19,8 +20,9 @@ This is a e-commerce project which describes how  e-commerce works and its consi
   - You will also see any lint errors in the console.
 
   **Test mode**
+   <br/>
     ```
-     cd shoppingcart
+     cd shoppingcart<br/>
      npm test
     ```
    >Runs the app in the test mode
@@ -29,9 +31,10 @@ This is a e-commerce project which describes how  e-commerce works and its consi
 
 
  **Build mode**
+    <br/>
     ```
      cd shoppingcart
-     npm run build
+     npm run build <br/>
     ```
    >Runs the app in the build mode
    - Builds the app for production to the `build` folder.<br />

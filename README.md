@@ -10,9 +10,12 @@ This is a e-commerce project which describes how  e-commerce works and its consi
 
    **Development mode**
     <br/>
-    ```linux
+    ```
+
     cd shoppingcart
+
     npm start
+    
     ```
   >Runs the app in the development mode.
   - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -21,10 +24,12 @@ This is a e-commerce project which describes how  e-commerce works and its consi
 
   **Test mode**
    <br/>
-    ```linux
+    ```
+
      cd shoppingcart
      
      npm test
+
     ```
    >Runs the app in the test mode
    - Launches the test runner in the interactive watch mode.<br />
@@ -33,9 +38,12 @@ This is a e-commerce project which describes how  e-commerce works and its consi
 
  **Build mode**
     <br/>
-    ```linux
+    ```
+    
      cd shoppingcart
+
      npm run build 
+
     ```
    >Runs the app in the build mode
    - Builds the app for production to the `build` folder.<br />

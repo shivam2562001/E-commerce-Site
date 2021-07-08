@@ -212,7 +212,6 @@ export default function SignIn() {
                 color="#f3f3f3"
                 height={30}
                 width={30}
-                timeout={3000}
               />
             ) : (
               <>Sign In</>
